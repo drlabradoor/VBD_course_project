@@ -8,7 +8,6 @@
 - `notebooks/analysis.ipynb` — очистка, EDA, визуализации (6+ графиков), модели (3 базовых + тюнинг RF).
 - `src/scrapper.py` — сбор данных с pogodaiklimat.ru (станция 38111), пишет в `data/raw/weather_output.csv`.
 - `images/visualizations/` — сохраняйте графики для презентации/README.
-- `presentation_outline.md` — шаблон слайдов под требования.
 - `requirements.txt`, `.gitignore`, `README.md`.
 
 ## Запуск
@@ -32,9 +31,7 @@ python src/scrapper.py
 ## Визуализации
 Линия (rolling temp), гистограмма температуры, роза ветров, heatmap корреляций, boxplot по месяцам, регрессия влажность–температура, plus feature importance и остатки.
 
-## Презентация
-Скелет слайдов в `presentation_outline.md`; экспортируйте в `presentation.pptx`/`pdf`, добавьте графики из `images/visualizations/`.
-
 ## Зависимости
 См. `requirements.txt` (pandas, numpy, matplotlib, seaborn, scikit-learn, windrose, requests, beautifulsoup4).
+
 
