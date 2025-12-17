@@ -1,4 +1,4 @@
-# Weather Analysis Aktau (2018–2025)
+# Анализ погоды Актау
 
 Полный цикл: сбор → очистка → EDA → моделирование прогноза температуры.
 
@@ -33,5 +33,6 @@ python src/scrapper.py
 
 ## Зависимости
 См. `requirements.txt` (pandas, numpy, matplotlib, seaborn, scikit-learn, windrose, requests, beautifulsoup4).
+
 
 
